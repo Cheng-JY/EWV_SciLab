@@ -17,9 +17,11 @@ n_D = 2e16 // 1/cm^3 Dichte der Donatoren (n-Dotierung)
 n_i0 = 6.42e15 // 1/(cm^3*K^3/2)
 Eg = 1.107*e // Bandlücke von Silizium in J
 
-n_i = sqroot(n_i0^2 * T^3 * exp(-Eg/(k*T))) // intrische Ladungsträgerdichte
+n_i = sqroot(n_i0^2 * T^3 * exp(-Eg/(k*T))) 
+// intrische Ladungsträgerdichte
 
-U_d = k*T/e * log(n_A * n_D/ n_i^2 // 0.7033 V
+U_d = k*T/e * log(n_A * n_D/ n_i^2)
+// 0.7033 V
 
 // e) Dioden/ Transistoren 
 
